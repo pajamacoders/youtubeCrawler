@@ -33,6 +33,7 @@ if __name__=='__main__':
       
         total=0
         i=0
+        save_dir = '/data'
         with open('file_list.txt', 'w') as faillist:
             faillist.write('down load fail list. \n')
             for url in urls:
